@@ -1,0 +1,123 @@
+/* @media (min-width: 1400px){} (extra large)
+
+@media (min-width: 1200px) and (max-width: 1399px) {} (extra large)
+
+@media (min-width: 992px) and (max-width: 1199px) {}(large)
+
+@media (min-width: 768px) and (max-width: 991px) {} (medium)
+
+@media (min-width: 576px) and (max-width: 767px) {} (small) */
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+@media (max-width: 575.98px) {
+    #main_manu img {
+        margin-top: 0;
+    }
+
+    #main_manu i{
+        color: red;
+    }
+
+    #main_manu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #main_manu ul {
+        background-color: #000000;
+    }
+
+    #banner_part .text h1 {
+        font-size: 20px;
+    }
+
+    #banner_part .text h2 {
+        font-size: 28px;
+        margin: 9px 0;
+    }
+    #banner_part .text p {
+        width: auto;
+        text-align: justify;
+    }
+    #banner_part .mobile_img {
+        right: -44px;
+        top: 32px;
+        transform: scale(.8);
+    }
+    #banner_part .button a {
+        padding: 5px 6px;
+        margin: 0 19px 0 0;
+    }
+
+    #banner_part {
+        padding: 203px 0 334px 0;
+    }
+
+    #our_features {
+        padding: 101px 0 60px 0;
+        background: #ffffff;
+        position: relative;
+        margin-top: -182px;
+    }
+    #our_features .arrow_one {
+        display: none;
+    }
+    #our_features .arrow_two {
+        display: none;
+    }
+    #our_features .arrow_three {
+        display: none;
+    }
+    #our_features .arrow_four {
+        display: none;
+    }
+
+    #our_features .mobile {
+        display: none;
+    }
+
+    #our_features .features_item_one .one {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    #our_features .features_item_one .three {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    #our_features .features_item_one .four {
+        margin-left: 0;
+    }
+
+    #our_features .features_item_one {
+        margin: 0 0;
+    }
+
+    #mobile_doc .icon{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #mobile_doc .item{
+        width: 48%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #mobile_doc .icon i {
+        margin: 0 auto;
+    }
+    #mobile_doc .mobile_img_two {
+        display: none;
+    }
+
+    #faq_part .mobile_leary {
+        display: none;
+    }
+
+    #faq_part .accordion-body {
+     padding: 0;
+    }
+  
+}
